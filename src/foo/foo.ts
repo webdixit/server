@@ -1,5 +1,6 @@
 export default class Foo {
-  static log(): void {
+  static log(): string {
     console.log('logging');
+    return 'bar';
   }
 }
