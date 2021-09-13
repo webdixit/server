@@ -1,3 +1,6 @@
-import { Server } from 'socket.io'
+// import { Server } from 'socket.io';
+import Foo from '@foo/foo';
 
-console.log("main")
+console.log('main');
+const foo = new Foo();
+foo.log();
